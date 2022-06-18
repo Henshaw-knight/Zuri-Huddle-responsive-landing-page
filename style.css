@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    /* background: yellow; */
+    background: url(images/bg-hero-desktop.svg);
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header-btn {
+    padding: 8px 35px;
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    box-shadow: 2px 1px 5px hsl(208, 11%, 55%);
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+/* font-family: 'Poppins', sans-serif; */
+
+.background {
+    
+    height: 80vh;
+}
+
+.get-started {
+    background: hsl(322, 100%, 66%);
+    color: #fff;
+    padding: 12px 38px;
+    border: none;
+    border-radius: 25px;    
+    font-weight: bold; 
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 100%;
+    margin: 0 auto;    
+}
+
+section div {
+    width: 50%;
+    margin-right: 50px;    
+    margin-left: 40px;
+}
