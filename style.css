@@ -112,3 +112,20 @@ main section .image {
 h2 {
     font-family: 'Poppins', sans-serif;
 }
+
+.ready {
+    border: 1px solid black;
+    width: 600px;
+    text-align: center;
+    padding: 0 50px;
+}
+
+.ready h2 {
+    margin-top: 50px;
+}
+
+.ready button {
+    margin: 30px 0;
+    padding: 18px 70px;
+    box-shadow: 2px 2px 10px rgba(192, 190, 190, 0.3); 
+}
