@@ -6,7 +6,10 @@
 
 body {
     min-height: 100vh;
-    background: hsl(210, 100%, 98%);    
+    background: hsl(210, 100%, 98%);
+    /* background: url(images/bg-hero-desktop.svg); */
+    /* width: 90%;
+    margin: 0 auto; */
 }
 
 .header-btn {
@@ -30,8 +33,7 @@ header {
 
 .background {
     background: url(images/bg-hero-desktop.svg);
-    background-size: contain;
-    /* height: 80vh; */
+    background-size: contain;   
 }
 
 .get-started {
@@ -139,10 +141,16 @@ footer {
     background: hsl(192, 100%, 9%);
     position: relative;
     padding-top: 160px;   
+    
+}
+
+.footer-flex {
     display: flex;
-    width: 100%;
+    width: 90%;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
+    margin: 0 auto;
+    background-color: blue;
 }
 
 .footer-logo {
@@ -154,9 +162,18 @@ footer div p, h3 {
 }
 
 footer .footer-content {
-    width: 20%;
-    /* background: blue; */
-    margin: 15px;
+    width: 25%;   
+    margin: 15px 5px;
+}
+
+footer .footer-content.links{
+    width: 15%;
+    display: grid;
+    place-items: center;   
+}
+
+.location, .phone, .email {
+    display: flex;   
     align-items: flex-start;
     font-size: 14px;
     margin-top: 15px;
@@ -170,6 +187,5 @@ footer .footer-content {
 .footer-content ul {
     list-style: none;
     color: #fff;
-    padding-left: 80px;   
-    
+    padding-left: 50px;         
 }
