@@ -203,5 +203,13 @@ footer .footer-content.links{
 
 .footer-content.footer-socials {
     text-align: center;
+}
 
-} 
+footer .copyright {    
+    width: 100%;   
+    text-align: right;
+}
+footer .copyright small {
+    color: #fff;
+    padding-right: 70px;
+}
