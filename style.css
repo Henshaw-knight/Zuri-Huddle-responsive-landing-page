@@ -150,7 +150,7 @@ footer {
     justify-content: center;
     align-items: center;    
     margin: 0 auto;
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 .footer-logo {
