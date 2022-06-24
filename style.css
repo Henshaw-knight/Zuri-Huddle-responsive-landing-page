@@ -148,7 +148,7 @@ footer {
 .footer-flex {
     display: flex;
     width: 90%;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;    
     margin: 0 auto;
     /* background-color: blue; */
@@ -165,6 +165,7 @@ footer div p, h3 {
 footer .footer-content {
     width: 25%;   
     margin: 15px 5px;
+    /* background: yellow; */
 }
 
 footer .footer-content.links{
