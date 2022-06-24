@@ -97,16 +97,17 @@ main section {
 }
 
 main section div {
-    width: 50%; 
+    width: 30%; 
 }
 
 main section .info {
     padding: 20px 10px 10px;   
     margin-left: 90px;
+    width: 40%;
 } 
 
 main section .image {
-    padding: 20px;
+    padding: 20px;   
 }
 
 h2 {
