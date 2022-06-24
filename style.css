@@ -21,6 +21,11 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.header-btn:hover {
+    color: rgb(145, 141, 141);
+    box-shadow: 2px 1px 5px hsl(212, 14%, 79%);
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -43,6 +48,12 @@ header {
     border: none;
     border-radius: 25px;    
     font-weight: bold; 
+    box-shadow: 2px 1px 5px hsl(322, 93%, 73%);
+}
+
+.get-started:hover {
+    background: hsl(322, 97%, 77%);
+    box-shadow: hsl(322, 84%, 81%);
 }
 
 section {
@@ -151,8 +162,7 @@ footer {
     width: 90%;
     justify-content: space-between;
     align-items: center;    
-    margin: 0 auto;
-    /* background-color: blue; */
+    margin: 0 auto;   
 }
 
 .footer-logo {
