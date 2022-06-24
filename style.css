@@ -173,6 +173,11 @@ footer .footer-content.links{
     place-items: center;   
 }
 
+footer .footer-content.links a {
+    color: #fff;
+    text-decoration: none;
+}
+
 .location, .phone, .email {
     display: flex;   
     align-items: flex-start;
