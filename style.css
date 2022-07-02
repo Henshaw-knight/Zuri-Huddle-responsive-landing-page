@@ -162,7 +162,9 @@ footer {
     width: 90%;
     justify-content: space-between;
     align-items: center;    
-    margin: 0 auto;   
+    margin: 0 auto; 
+    font-size: 14px;  
+    font-family: 'Open Sans', sans-serif;   
 }
 
 .footer-logo {
@@ -210,7 +212,9 @@ footer .footer-content.links a {
 
 .footer-content.footer-socials {
     color: #fff;
+    text-align: center;
 }
+
 
 .footer-content.footer-socials i {
     border: 1px solid #fff;
@@ -219,9 +223,14 @@ footer .footer-content.links a {
     margin-left: 10px;    
 }
 
-.footer-content.footer-socials {
-    text-align: center;
+.footer-content.footer-socials i:hover {
+    color:hsl(322, 100%, 66%);
+    border: 1px solid hsl(322, 100%, 66%);
 }
+
+/* .footer-content.footer-socials {
+    text-align: left;
+} */
 
 footer .copyright {    
     width: 100%;   
