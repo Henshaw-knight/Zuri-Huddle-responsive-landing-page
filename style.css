@@ -153,8 +153,8 @@ h2 {
 footer {
     background: hsl(192, 100%, 9%);
     position: relative;
-    padding-top: 160px;   
-    
+    padding-top: 160px; 
+    padding-bottom: 50px;    
 }
 
 .footer-flex {
@@ -191,6 +191,10 @@ footer .footer-content.links{
 footer .footer-content.links a {
     color: #fff;
     text-decoration: none;
+}
+
+footer .footer-content.links a:hover{
+    text-decoration: underline;
 }
 
 .location, .phone, .email {
@@ -237,6 +241,7 @@ footer .copyright {
     width: 100%;   
     text-align: right;
 }
+
 footer .copyright small {
     color: #fff;
     padding-right: 70px;
