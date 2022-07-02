@@ -222,6 +222,7 @@ footer .footer-content.links a:hover{
     color: #fff;
     text-align: center;  
     padding-bottom: 60px;
+    padding-right: 25px;
 }
 
 
@@ -244,5 +245,5 @@ footer .copyright {
 
 footer .copyright small {
     color: #fff;
-    padding-right: 70px;
+    padding-right: 30px;
 }
