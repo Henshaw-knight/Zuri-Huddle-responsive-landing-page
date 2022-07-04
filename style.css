@@ -347,15 +347,14 @@ footer .copyright small {
         width: 90%;
     }
 
-    .ready button {
-        /* margin: 0; */
+    .ready button {        
         padding: 15px 48px;
     }
 
     .ready h2 {
         font-size: 18px;
         width: 100%;
-        /* background: yellow; */
+        margin-top: 40px;        
     }
 
     main section .info {        
@@ -377,8 +376,23 @@ footer .copyright small {
 
     footer .footer-content {
         width: 100%;   
-        margin: 15px 5px;    
+        margin: 15px 5px;          
+    }
+
+    footer .footer-content.links{
+        width: 100%;
+        display: block;       
+        padding-top: 0px;
     }
     
+    .footer-content ul {        
+        padding-left: 0px;         
+    }
+
+    .footer-content.footer-socials {                  
+        padding-right: 0px;
+        margin: 0px;
+        width: 100%;
+    }
 
 }
