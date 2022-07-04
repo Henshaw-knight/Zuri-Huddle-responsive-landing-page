@@ -272,7 +272,7 @@ footer .copyright small {
 
     .background {
         background: url(images/bg-hero-mobile.svg);
-        background-size: contain;   
+        /* background-size: cover;    */
     }
     
 
@@ -282,18 +282,39 @@ footer .copyright small {
         align-items: center;
         padding: 10px;
         margin: 0;       
-        width: 100%;
+        width: 90%;
+    }    
+
+    .heading div h1 {
+        font-size: 28px;
     }
 
-    .heading img{
+    .heading {
+        text-align: center;
+        margin-top: 50px;
+        padding: 5px;
         width: 90%;
     }
+
+    section div:nth-child(1) {
+        padding: 0px;
+    }
+    
+    section div:nth-child(2) {
+        margin: 70px 0px 50px;
+        padding: 0;        
+    }
+
+    main {
+        padding-top: 70px;
+    } 
 
     main section{
         display: block;
         width: 80%;
         padding: 20px;
     }
+
     main section div {
         width: 100%;
     } 
@@ -333,11 +354,21 @@ footer .copyright small {
         /* background: yellow; */
     }
 
-    main section .info {
-        
-        width: 100%;
-        
+    main section .info {        
+        width: 100%;        
     } 
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 10px;
+        margin: 0;
+    }
+
+    .header-btn {
+        padding: 6px 38px; 
+    }
     
 
 }
