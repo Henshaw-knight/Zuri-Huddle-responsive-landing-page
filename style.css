@@ -70,6 +70,11 @@ section div {
     padding-bottom: 30px;
 }
 
+section div img {
+    max-width: 100%;
+    height: auto;
+}
+
 section div:nth-child(1) {
     padding-left: 30px;
 }
@@ -117,9 +122,6 @@ main section .info {
     width: 40%;
 } 
 
-main section .image {
-    padding: 20px;   
-}
 
 h2 {
     font-family: 'Poppins', sans-serif;
@@ -154,7 +156,8 @@ footer {
     background: hsl(192, 100%, 9%);
     position: relative;
     padding-top: 160px; 
-    padding-bottom: 50px;    
+    padding-bottom: 50px; 
+    width: 100%;   
 }
 
 .footer-flex {
@@ -246,4 +249,95 @@ footer .copyright {
 footer .copyright small {
     color: #fff;
     padding-right: 30px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 375px){
+    html, body{
+        overflow-x: hidden;         
+    }
+
+    section {
+        display: block;
+    }
+    section div{
+        display: block;
+    }
+    section div {
+        width: 100%;
+        margin: 0px;   
+        padding-bottom: 0px;
+    }
+
+    .background {
+        background: url(images/bg-hero-mobile.svg);
+        background-size: contain;   
+    }
+    
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        margin: 0;       
+        width: 100%;
+    }
+
+    .heading img{
+        width: 90%;
+    }
+
+    main section{
+        display: block;
+        width: 80%;
+        padding: 20px;
+    }
+    main section div {
+        width: 100%;
+    } 
+
+    main section .info {
+        width: 100%;  
+        padding: 0px;   
+        margin-left: 0px;    
+        text-align: center;   
+    } 
+
+    main section .image {
+        width: 100%;
+        padding: 0;   
+        margin-left: 0;
+    }
+    main section .image {
+        padding: 0px;         
+    }
+
+    .footer-flex {
+        display: block;
+    }
+
+    .ready {
+        width: 90%;
+    }
+
+    .ready button {
+        /* margin: 0; */
+        padding: 15px 48px;
+    }
+
+    .ready h2 {
+        font-size: 18px;
+        width: 100%;
+        /* background: yellow; */
+    }
+
+    main section .info {
+        
+        width: 100%;
+        
+    } 
+    
+
 }
