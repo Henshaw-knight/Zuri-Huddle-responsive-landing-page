@@ -296,15 +296,19 @@ footer .copyright small {
         width: 90%;
     }
 
+    .heading div img {
+        width: 90%;
+    }      
+
     section div:nth-child(1) {
         padding: 0px;
     }
     
     section div:nth-child(2) {
-        margin: 70px 0px 50px;
-        padding: 0;        
+        margin: 60px 0 40px;
+        padding: 0px;             
     }
-
+      
     main {
         padding-top: 70px;
     } 
@@ -368,6 +372,12 @@ footer .copyright small {
 
     .header-btn {
         padding: 6px 38px; 
+    }
+    
+
+    footer .footer-content {
+        width: 100%;   
+        margin: 15px 5px;    
     }
     
 
