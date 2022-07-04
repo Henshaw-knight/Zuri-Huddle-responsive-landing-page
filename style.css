@@ -253,7 +253,7 @@ footer .copyright small {
 
 /* Media Queries */
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 720px){
     html, body{
         overflow-x: hidden;         
     }
