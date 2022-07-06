@@ -14,11 +14,13 @@ body {
 
 .header-btn {
     padding: 8px 38px;
-    background: #fff;
+    background-color: #fff;
     border: 1px solid #fff;
     border-radius: 25px;
     box-shadow: 2px 1px 5px hsl(208, 11%, 55%);
     font-family: 'Poppins', sans-serif;
+    transition: color 0.5s, 
+                box-shadow 0.5s;
 }
 
 .header-btn:hover {
@@ -42,17 +44,19 @@ header {
 }
 
 .get-started {
-    background: hsl(322, 100%, 66%);
+    background-color: hsl(322, 100%, 66%);
     color: #fff;
     padding: 14px 38px;
     border: none;
     border-radius: 25px;    
     font-weight: bold; 
     box-shadow: 2px 1px 5px hsl(322, 93%, 73%);
+    transition: background-color 0.4s,
+                box-shadow 0.5s; 
 }
 
 .get-started:hover {
-    background: hsl(322, 97%, 77%);
+    background-color: hsl(322, 97%, 77%);
     box-shadow: hsl(322, 84%, 81%);
 }
 
@@ -99,7 +103,7 @@ section p {
 main {
     background: #fff;
     padding-top: 125px;
-    padding-bottom: 250px;
+    padding-bottom: 250px;   
 }
 
 main section {
@@ -110,6 +114,11 @@ main section {
     box-shadow: -0.5px -0.5px 10px rgba(192, 190, 190, 0.5); 
     padding-bottom: 15px;
     margin-bottom: 38px;   
+    transition: transform 0.5s;
+}
+
+main section:hover, main section:focus {
+    transform: translate(-20px, -15px);
 }
 
 main section div {
